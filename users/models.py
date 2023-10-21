@@ -18,3 +18,5 @@ class Scholar(models.Model):
     
     def get_email(self):
         return f'{self.scholar_email}'
+
+   
